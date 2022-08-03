@@ -1,8 +1,8 @@
 # Digital Card
 
-Personal card in the terminal!
+My personal digital card in the terminal!
 
-_Inspired from [bitandbang](https://github.com/bnb/bitandbang) by Tierney Cyren._
+_All credit goes to [bitandbang](https://github.com/bnb/bitandbang) by Tierney Cyren._
 
 ## Setup
 
