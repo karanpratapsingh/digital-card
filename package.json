@@ -1,0 +1,43 @@
+{
+  "name": "card",
+  "version": "2.1.1",
+  "description": "A personal card for Karan Pratap Singh",
+  "main": "/bin/card.js",
+  "bin": {
+    "karanpratapsingh": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karanpratapsingh/digital-card.git"
+  },
+  "homepage": "https://karanpratapsingh.com",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Karan Pratap Singh <contact@karanpratapsingh.com> (http://karanpratapsingh.com)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "standard": "^12.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/karanpratapsingh/digital-card/issues"
+  },
+  "dependencies": {}
+}
